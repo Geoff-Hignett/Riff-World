@@ -1,0 +1,60 @@
+.main-header {
+  background: url(../img/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(59, 48, 119, 0.8);
+}
+
+.section-filler {
+  border-top: 3px solid #000;
+  border-bottom: 3px solid #000;
+  background: url(../img/background2.jpg);
+}
+
+.section-signup {
+  background: rgba(144, 123, 220, 0.1);
+}
+
+.overlay-filler {
+  background: rgba(144, 123, 220, 0.8);
+}
+
+.down-icon {
+  position: absolute;
+  top: 90%;
+  left: 47%;
+  color: #fff;
+}
+
+.bg-purple {
+  background: rgba(59, 48, 119);
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+li a {
+  color: #fff;
+}
