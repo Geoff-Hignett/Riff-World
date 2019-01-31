@@ -3,10 +3,11 @@
 
 <head>
 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Riff World</title>
 </head>
 
@@ -14,7 +15,7 @@
 
   <!-- Navbar -->
   <header class="main-header">
-    <div class="overlay">
+    <div class="overlay-main-header">
       <div class="navbar-fixed">
         <nav class="transparent">
           <div class="container">
@@ -39,37 +40,39 @@
       <!-- Hero -->
       <div class="hero container">
         <div class="row">
-          <col class="s12">
-          <h1>Ready To Rock?</h1>
-          <br>
-          <p class="flow-text">Riff World can take you to the next level of guitar playing through specialised teaching
-            and awesome rock
-            events this coming summer!</p>
-          <a href="#about" class="btn btn-large white waves-effect waves-purple purple-text">Rock On!</a>
-          <a href="#about">
-            <i class="material-icons down-icon medium">arrow_drop_down_circle</i>
-          </a>
+          <div class="s12">
+            <h1>Ready To Rock?</h1>
+            <br>
+            <p class="flow-text">Riff World can take you to the next level of guitar playing through specialised
+              teaching
+              and awesome rock
+              events this coming summer!</p>
+            <a href="#about" class="btn-style btn btn-large white waves-effect waves-purple">Rock On!</a>
+            <a href="#about">
+              <i class="material-icons down-icon medium">arrow_drop_down_circle</i>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
   </header>
 
   <!-- About -->
-  <section class="section section-about center">
+  <section id="about" class="section section-about center scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <h1>About</h1>
+          <h1 class="bold-text">About</h1>
         </div>
       </div>
       <div class="row valign-wrapper">
         <div class="col s12 m6">
-          <p class="flow-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi temporibus dolore odit
-            blanditiis, animi voluptatum eius, optio necessitatibus praesentium ipsa autem sequi molestiae est saepe
-            aut tenetur. Obcaecati molestias possimus.</p>
+          <p class="flow-text padding-under">Riff World is a guitar tuition service which caters for all styles and
+            teaches in
+            person, online, individually and in groups. Founded in 2018 by two metalheads in the home counties, we have
+            grown from strength to strength and are passionate about getting people of all ages into music.</p>
         </div>
         <div class="col s12 m6">
-          <img src="img/background.jpg" class="responsive-img circle" alt="">
+          <img src="img/about.jpg" class="responsive-img circle padding-under" alt="A guitarist plays in the darkness on stage">
         </div>
       </div>
     </div>
@@ -77,11 +80,11 @@
 
   <!-- Filler -->
   <section class="section-filler white-text">
-    <div class="overlay-filler valign-wrapper">
+    <div class="overlay-section-filler valign-wrapper">
       <div class="container">
         <div class="row">
           <div class="col s12 center">
-            <h3>For Guitarists, By Guitarists</h3>
+            <h3 class="bold-text">We Are Riff World</h3>
           </div>
         </div>
       </div>
@@ -89,60 +92,90 @@
   </section>
 
   <!-- Services -->
-  <section class="section-services center">
+  <section id="services" class="section section-services center scrollspy">
     <div class="overlay2">
       <div class="container">
         <div class="row">
           <div class="col s12">
-            <h1>Services</h1>
-            <p class="flow-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio nam pariatur
-              culpa!
-              Dolorem iusto quo voluptatum. Placeat, non minima aperiam corrupti ullam consectetur?</p>
+            <h1 class="bold-text">Services</h1>
+            <p class="flow-text">Click on one of the pictures below to find out about what we have to offer.</p>
           </div>
         </div>
         <div class="row">
-          <div class="col s12 m4">
-            <div class="card">
+          <div class="col s12 l6 xl4">
+            <div class="card margin-under">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="img/background.jpg">
+                <img class="activator" src="img/tuition.jpeg">
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <div class="card-content card-title activator">
+                <span class="card-title activator">Private Tuition</span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i>
+                <span class="card-title grey-text text-darken-4">Private Tuition<i class="material-icons right">close</i>
                 </span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <p>This is the bread and butter of Riff World. Led by Arjun Flora, our team of guitar teachers cover
+                  every style of guitar playing from metal to country. We make sure that all instructors are members of
+                  the Registry of Guitar Tutors (London College of Music) and have at least two years experience in
+                  tuition. Unbelievably we manage to do all this and keep our prices extremely competitive.</p>
+              </div>
+              <div class="icon-space">
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
               </div>
             </div>
           </div>
-          <div class="col s12 m4">
-            <div class="card">
+          <div class="col s12 l6 xl4">
+            <div class="card margin-under">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="img/background.jpg">
+                <img class="activator" src="img/tab.jpg">
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <div class="card-content card-title activator">
+                <span class="card-title activator">Tab Order Service</span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i>
+                <span class="card-title grey-text text-darken-4">Tab Order Service<i class="material-icons right">close</i>
                 </span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <p>Is there a song you have always wanted to learn to play note for note? Are you tired of watching
+                  YouTube videos where the person who is claiming to be teaching you is just showing off? Have no fear!
+                  Riff World create bespoke guitar tabs for specific song requests. We also provide the option of an
+                  instructional video. We promise to refund anyone who finds any of our tabs to be off by a single
+                  note!</p>
+              </div>
+              <div class="icon-space">
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
               </div>
             </div>
           </div>
-          <div class="col s12 m4">
-            <div class="card">
+          <div class="col s12 l6 xl4">
+            <div class="card margin-under">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="img/background.jpg">
+                <img class="activator" src="img/events.jpg">
               </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <div class="card-content card-title activator">
+                <span class="card-title activator">Group Events</span>
               </div>
               <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i>
+                <span class="card-title grey-text text-darken-4">Group Events<i class="material-icons right">close</i>
                 </span>
-                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                <p>Every month there is at least one Riff World group event. These are often jams organised in
+                  community centres and colleges by our Head of Events and metalhead Pep Marcantuono. Our biggest
+                  annual event is our Summer School which attracts over 200 guitarists! This year's event looks set to
+                  be a record-breaker for attendance. Read more about Summer School
+                  below. </p>
+              </div>
+              <div class="icon-space">
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
+                <i class="material-icons white-text">star</i>
               </div>
             </div>
           </div>
@@ -153,11 +186,11 @@
 
   <!-- Filler -->
   <section class="section-filler white-text">
-    <div class="overlay-filler valign-wrapper">
+    <div class="overlay-section-filler valign-wrapper">
       <div class="container">
         <div class="row">
           <div class="col s12 center">
-            <h3>For Guitarists, By Guitarists</h3>
+            <h3 class="bold-text">For Guitarists, By Guitarists</h3>
           </div>
         </div>
       </div>
@@ -165,11 +198,12 @@
   </section>
 
   <!-- Summer School -->
-  <section class="section section-summer center">
+  <section id="summer" class="section section-summer center scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <h1>Summer School</h1>
+          <h1 class="bold-text">Summer School</h1>
+          <p class="flow-text">Get ready for the biggest guitar meetup in the South of England!</p>
         </div>
       </div>
       <div class="row">
@@ -177,30 +211,35 @@
           <div class="slider">
             <ul class="slides">
               <li>
-                <img src="img/background.jpg" alt="">
+                <img src="img/god.jpg" alt="A band receives an amazing reception at a concert">
                 <div class="caption center-align">
-                  <h2>Take Your Dream Vacation</h2>
-                  <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Iusto quibusdam, sunt corrupti eos iure accusantium.</h5>
-                  <a href="#" class="btn btn-large">Learn More</a>
+                  <h2 class="bold-text shadow">Become A Rock God</h2>
+                  <h5 class="light white-text hide-on-small-only bold-text shadow">Learn to play with a group of
+                    musicians
+                    in a festival environment.</h5>
+                  <a href="#signup" class="btn-style btn btn-large white waves-effect waves-purple">Register</a>
                 </div>
               </li>
               <li>
-                <img src="img/background.jpg" alt="">
+                <img src="img/drum.jpg" alt="A drummer plays on stage surrounded by neon lights">
                 <div class="caption left-align">
-                  <h2>We Work With All Budgets</h2>
-                  <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Iusto quibusdam, sunt corrupti eos iure accusantium.</h5>
-                  <a href="#" class="btn btn-large">Learn More</a>
+                  <h2 class="bold-text shadow">We Need Drummers!</h2>
+                  <h5 class="light grey-text text-lighten-3 hide-on-small-only bold-text shadow">Do you know any
+                    drummers?
+                    Invite them
+                    along! Who knows, you might become the next Metallica!</h5>
+                  <a href="#signup" class="btn-style btn btn-large white waves-effect waves-purple">Register</a>
                 </div>
               </li>
               <li>
-                <img src="img/background.jpg" alt="">
+                <img src="img/holiday.jpg" alt="The audience enjoy a great night watching a band">
                 <div class="caption right-align">
-                  <h2>Group & Individual Getaways</h2>
-                  <h5 class="light grey-text text-lighten-3 hide-on-small-only">Lorem, ipsum dolor sit amet consectetur
-                    adipisicing elit. Iusto quibusdam, sunt corrupti eos iure accusantium.</h5>
-                  <a href="#" class="btn btn-large">Learn More</a>
+                  <h2 class="bold-text shadow">The Cheapest Holiday Going</h2>
+                  <h5 class="light grey-text text-lighten-3 hide-on-small-only bold-text shadow">Summer School costs
+                    next to
+                    nothing and
+                    is the perfect escape.</h5>
+                  <a href="#signup" class="btn-style btn btn-large white waves-effect waves-purple">Register</a>
                 </div>
               </li>
             </ul>
@@ -211,11 +250,11 @@
   </section>
 
   <!-- Signup -->
-  <section class="section section-signup center">
+  <section id="signup" class="section section-signup center scrollspy">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <h3>Register Interest</h3>
+          <h3 class="bold-text">Registration</h3>
         </div>
       </div>
       <div class="row">
@@ -238,10 +277,10 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <textarea id="textarea1" class="materialize-textarea" placeholder="Briefly explain your experience e.g. '3 years rock and blues'"></textarea>
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
               <label for="textarea1">Guitar Experience</label>
             </div>
-            <input type="submit" value="Submit" class="btn">
+            <a href="#signup" class="btn-style btn btn-large white waves-effect waves-purple">Register</a>
           </div>
         </form>
       </div>
@@ -275,7 +314,17 @@
   <script>
     $(document).ready(function () {
       // Init Sidenav
-      $('.sidenav-trigger').sideNav();
+      $('.sidenav-trigger').sideNav({
+        menuWidth: 200,
+        closeOnClick: true // Closes side-nav on <a> clicks
+      }
+      );
+
+      // Init Scrollspy
+      $('.scrollspy').scrollSpy({
+        scrollOffset: 5
+      });
+
       // Init slider
       $(".slider").slider({
         indicators: false,
@@ -284,11 +333,10 @@
         interval: 5000
       });
 
-
       // ScrollFire
       const options = [
         {
-          selector: ".navbar-fixed", offset: 1450, callback: function () {
+          selector: ".navbar-fixed", offset: 1200, callback: function () {
             $("nav").removeClass("transparent").addClass("bg-purple");
           }
         }
